@@ -124,3 +124,14 @@ Todos os dispositivos estão conectados ao **Arduino UNO**, que coleta os dados 
 
 ```json
 {"Temperatura":36.5}
+
+```
+---
+# Integrantes do Grupo
+
+- Gabriela Queiroga - RM 560035
+- Julia Sayuri Yokoo - RM 560541
+- Maria Eduarda Ferrés - RM 560418
+
+
+
