@@ -58,6 +58,8 @@ Todos os dispositivos estão conectados ao **ESP32**, que coleta os dados e os e
 
 ## Link do vídeo no Youtube explicando sobre o projeto:
 
+- https://www.youtube.com/watch?v=6JZ8vSsI6wQ
+
 ---
 
 ## 🧰 Componentes Utilizados
