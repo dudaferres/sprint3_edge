@@ -51,7 +51,8 @@ Todos os dispositivos estão conectados ao **Arduino UNO**, que coleta os dados 
 
 ## Print do projeto no Wokwi
 
-![image](https://github.com/user-attachments/assets/205d59a0-119c-4ba2-8f8c-c2f60f4aeba5)
+![image](https://github.com/user-attachments/assets/b9515b9d-9ed5-44cb-94a1-e1f6c091d25a)
+
 
 ## Link do vídeo no Youtube explicando sobre o projeto:
 
