@@ -6,7 +6,9 @@ Este projeto utiliza um Arduino para monitorar a temperatura de uma mamadeira e 
 
 # 📈 Diagrama
 
-![image](https://github.com/user-attachments/assets/643531e8-26e3-40ca-9831-2253db302e50)
+
+![image](https://github.com/user-attachments/assets/f83ddfa1-9909-451f-a0fb-91a9b44eb710)
+
 
 # Descrição do Diagrama
 
@@ -17,7 +19,6 @@ Este projeto apresenta a arquitetura de um sistema IoT utilizando Arduino UNO, c
 - **LED**: Atuador de sinalização visual.
 - **DHT11**: Sensor de temperatura e umidade.
 - **Buzzer**: Atuador de alerta sonoro.
-- **LCD**: Tela para exibir informações locais.
 
 Todos os dispositivos estão conectados ao **Arduino UNO**, que coleta os dados e envia via módulo **Wi-Fi**.
 
@@ -59,7 +60,6 @@ Todos os dispositivos estão conectados ao **Arduino UNO**, que coleta os dados 
 
 - Arduino (Uno, Nano ou similar)  
 - Sensor de temperatura DHT22  
-- Display LCD 20x4 com interface I2C  
 - LED verde  
 - LED vermelho  
 - Buzzer  
@@ -73,7 +73,7 @@ Todos os dispositivos estão conectados ao **Arduino UNO**, que coleta os dados 
 ## ⚙️ Funcionalidades
 
 - Medição contínua da temperatura  
-- Exibição da temperatura no display LCD  
+- Exibição da temperatura no Dashboard  
 - Indicação visual com LEDs:  
   - 🟢 **Verde**: temperatura adequada (35°C - 37°C)  
   - 🔴 **Vermelho**: temperatura fora da faixa ideal para o bebê 
@@ -86,11 +86,7 @@ Todos os dispositivos estão conectados ao **Arduino UNO**, que coleta os dados 
 ## 🔌 Esquema de Conexão
 
 ### 🌡️ DHT22:
-- Pino de dados → Pino 6 do Arduino  
-
-### 📟 LCD I2C:
-- SDA → A4 (ou SDA)  
-- SCL → A5 (ou SCL)  
+- Pino de dados → Pino 6 do Arduino   
 
 ### 🔧 Outros componentes:
 - LED verde → Pino 13  
